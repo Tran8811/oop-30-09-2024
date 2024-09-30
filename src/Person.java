@@ -1,4 +1,4 @@
-public class Nhanvien {
+public class Person {
     private String name;
     private int birthYear;
 
@@ -17,8 +17,9 @@ public class Nhanvien {
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
-    public Nhanvien(Nhanvien nv) {
+    public Person(String name,int birthYear) {
         this.name=name;
         this.birthYear=birthYear;
     }
+
 }
